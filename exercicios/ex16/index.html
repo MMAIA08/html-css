@@ -1,11 +1,55 @@
-<html lang="en">
+<html lang="pr-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
 </head>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table{
+        width: 500px;
+        border-collapse: collapse;
+    }
+
+    tr.linha{
+        background-color: gray;
+    }
+
+    td{
+        border: 1px solid black;
+    }
+
+    td.cor{
+        background-color: rgb(243, 11, 11);
+    }
+</style>
+
 <body>
+    <h1>primeira tabela</h1>
+    <table>
+
+        <tr >
+            <td class="cor">a1</td>
+            <td>a2</td>
+            <td>a3</td>
+        </tr>
+        <tr class="linha">
+            <td>b1</td>
+            <td>b2</td>
+            <td>b3</td>
+        </tr>
+        <tr>
+            <td>c1</td>
+            <td>c2</td>
+            <td>c3</td>
+        </tr>
+
+    </table>
     
 </body>
 </html>
